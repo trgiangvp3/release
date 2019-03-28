@@ -8,6 +8,7 @@ const server = http.createServer(handle)
 server.listen(process.env.PORT || 5000)
 
 /** Add your bot logic here. Removing the imported examples. */
+require('./src/reminders')
 require('./src/examples')
 
 bot.start() // 🚀
